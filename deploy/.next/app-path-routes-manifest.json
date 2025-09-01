@@ -1,0 +1,13 @@
+{
+  "/api/send-quote/route": "/api/send-quote",
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
+  "/polityka-cookies/page": "/polityka-cookies",
+  "/kontakt/page": "/kontakt",
+  "/page": "/",
+  "/nota-prawna/page": "/nota-prawna",
+  "/polityka-prywatnosci/page": "/polityka-prywatnosci",
+  "/rodo/page": "/rodo",
+  "/polityka-zwrotow/page": "/polityka-zwrotow",
+  "/warunki-ogolne/page": "/warunki-ogolne"
+}
