@@ -1,4 +1,4 @@
-// File: C:\Users\kenyi\Downloads\Rejestracja Hiszpania\src\app\rodo\page.tsx
+// File: C:\Users\kenyi\Downloads\Rejestracja Hiszpania\deploy\src\app\rodo\page.tsx
 import * as entry from '../../../../src/app/rodo/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

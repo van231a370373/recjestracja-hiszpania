@@ -1,4 +1,4 @@
-// File: C:\Users\kenyi\Downloads\Rejestracja Hiszpania\src\app\api\send-quote\route.ts
+// File: C:\Users\kenyi\Downloads\Rejestracja Hiszpania\deploy\src\app\api\send-quote\route.ts
 import * as entry from '../../../../../src/app/api/send-quote/route.js'
 import type { NextRequest } from 'next/server.js'
 

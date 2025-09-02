@@ -231,11 +231,20 @@ export default function UploadForm() {
 
         setUploadProgress(70); // Archivos preparados
 
-        // Enviar a la API de email con archivos
-        const response = await fetch('/api/send-quote', {
+        // Enviar a Firebase Functions
+        const response = await fetch('https://us-central1-rejestracja-hiszpania.cloudfunctions.net/sendEmail', {
             method: 'POST',
-            body: formDataToSend, // No need Content-Type header for FormData
+            headers: {
+                'Accept': 'application/json'
+            },
+            body: formDataToSend,
         });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error('Server response:', errorText);
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
 
         if (!response.ok) {
             throw new Error('Error enviando solicitud');

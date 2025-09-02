@@ -3,11 +3,11 @@
   "/favicon.ico/route": "/favicon.ico",
   "/_not-found/page": "/_not-found",
   "/polityka-cookies/page": "/polityka-cookies",
-  "/kontakt/page": "/kontakt",
-  "/page": "/",
   "/nota-prawna/page": "/nota-prawna",
-  "/polityka-prywatnosci/page": "/polityka-prywatnosci",
+  "/kontakt/page": "/kontakt",
   "/rodo/page": "/rodo",
+  "/page": "/",
+  "/polityka-prywatnosci/page": "/polityka-prywatnosci",
   "/polityka-zwrotow/page": "/polityka-zwrotow",
   "/warunki-ogolne/page": "/warunki-ogolne"
 }

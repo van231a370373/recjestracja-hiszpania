@@ -2,12 +2,12 @@
   "/api/send-quote/route": "/api/send-quote",
   "/favicon.ico/route": "/favicon.ico",
   "/_not-found/page": "/_not-found",
-  "/polityka-cookies/page": "/polityka-cookies",
   "/kontakt/page": "/kontakt",
-  "/page": "/",
   "/nota-prawna/page": "/nota-prawna",
-  "/polityka-prywatnosci/page": "/polityka-prywatnosci",
+  "/page": "/",
   "/rodo/page": "/rodo",
+  "/polityka-prywatnosci/page": "/polityka-prywatnosci",
+  "/polityka-cookies/page": "/polityka-cookies",
   "/polityka-zwrotow/page": "/polityka-zwrotow",
   "/warunki-ogolne/page": "/warunki-ogolne"
 }

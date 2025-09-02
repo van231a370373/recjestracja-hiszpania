@@ -109,7 +109,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\kenyi\\Downloads\\Rejestracja Hiszpania",
+    "outputFileTracingRoot": "C:\\Users\\kenyi\\Downloads\\Rejestracja Hiszpania\\deploy",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -292,10 +292,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "C:\\Users\\kenyi\\Downloads\\Rejestracja Hiszpania"
+      "root": "C:\\Users\\kenyi\\Downloads\\Rejestracja Hiszpania\\deploy"
     }
   },
-  "appDir": "C:\\Users\\kenyi\\Downloads\\Rejestracja Hiszpania",
+  "appDir": "C:\\Users\\kenyi\\Downloads\\Rejestracja Hiszpania\\deploy",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

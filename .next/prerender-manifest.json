@@ -1,12 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/favicon.ico": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "image/x-icon",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
-      },
+    "/polityka-cookies": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -19,8 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/favicon.ico",
-      "dataRoute": null,
+      "srcRoute": "/polityka-cookies",
+      "dataRoute": "/polityka-cookies.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -30,7 +25,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/nota-prawna": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -43,32 +38,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/nota-prawna",
-      "dataRoute": "/nota-prawna.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/kontakt": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kontakt",
-      "dataRoute": "/kontakt.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -102,7 +73,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/polityka-cookies": {
+    "/rodo": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -115,8 +86,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/polityka-cookies",
-      "dataRoute": "/polityka-cookies.rsc",
+      "srcRoute": "/rodo",
+      "dataRoute": "/rodo.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -150,30 +121,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/rodo": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/rodo",
-      "dataRoute": "/rodo.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/polityka-prywatnosci": {
       "experimentalBypassFor": [
         {
@@ -198,7 +145,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
+    "/nota-prawna": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -211,8 +158,61 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
+      "srcRoute": "/nota-prawna",
+      "dataRoute": "/nota-prawna.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kontakt": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kontakt",
+      "dataRoute": "/kontakt.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -226,8 +226,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "e23471e23af7bb2b3ef203734596d16a",
-    "previewModeSigningKey": "3b8f56035d87556eabb7331b5b6947121f24fc515216fea94023777c323f0580",
-    "previewModeEncryptionKey": "ccb7da527ee0a6c86a4fbc354a59f6f503b3637e475890495e0653c77d3a1d0e"
+    "previewModeId": "afd6b6705e3ff0bf1d5a58b7d3a4a72a",
+    "previewModeSigningKey": "feca2c6217e645c2679d4ee693ce8edf3f8ef5c570baa7536ac0a89ddf31b366",
+    "previewModeEncryptionKey": "7a15ea479f072d3c669e033823cbb957f1272ed6a38f121234ca5a4c3856a77f"
   }
 }
