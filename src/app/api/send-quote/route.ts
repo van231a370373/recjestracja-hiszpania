@@ -77,7 +77,7 @@ export async function POST(request: NextRequest) {
     // PRODUCCIÓN: Envía emails reales automáticamente
     // Configurar el transporte de email usando tu servidor
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST || 'mail.rejestracjahiszpania.com',
+      host: process.env.SMTP_HOST || 'mail.pgkhiszpania.com',
       port: parseInt(process.env.SMTP_PORT || '465'),
       secure: true, // true para 465, false para otros puertos
       auth: {
